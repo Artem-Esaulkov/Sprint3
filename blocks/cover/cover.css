@@ -1,0 +1,10 @@
+.cover {
+    display: grid;
+    width: 92.5vw;
+    margin: 92px auto;
+    grid-template-rows: 1fr repeat(2,min-content) 1fr;
+    grid-template-columns: 1fr min-content 1fr;
+    background-color: #2A2C2F;
+    opacity: 1;
+    transition: opacity 1.2s linear;
+}

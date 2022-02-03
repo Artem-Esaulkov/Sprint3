@@ -1,0 +1,10 @@
+.cover__title {
+    font-size: 4.5rem;
+    line-height: 1.06;
+    font-weight: 900;
+    margin: 0 auto 32px;
+    width: 43.75vw;
+    text-align: center;
+    position: relative;
+    grid-area: 2 / 2 / 3 / 3;
+}

@@ -1,0 +1,10 @@
+.intro {
+    width: 690px;
+    margin: 92px calc(100vw - (100vw - 984px)/2) 92px calc((100vw - 984px)/2);
+}
+
+@media screen and (max-width: 1100px) {
+    .intro {
+        margin: 92px calc(100vw - (100vw - 928px)/2) 92px calc((100vw - 928px)/2);
+    }
+}
