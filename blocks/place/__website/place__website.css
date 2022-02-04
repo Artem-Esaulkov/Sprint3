@@ -8,4 +8,5 @@
     width: 95%;
     height: min-content;
     align-self: end;
+    border: 1px solid red;
 }

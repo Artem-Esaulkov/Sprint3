@@ -6,4 +6,5 @@
     margin: 0 auto;
     position: relative;
     grid-area: 3 / 2 / 4 / 3;
+    z-index: 1;
 }

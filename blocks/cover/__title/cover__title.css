@@ -7,4 +7,5 @@
     text-align: center;
     position: relative;
     grid-area: 2 / 2 / 3 / 3;
+    z-index: 1;
 }

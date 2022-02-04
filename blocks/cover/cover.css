@@ -8,3 +8,9 @@
     opacity: 1;
     transition: opacity 1.2s linear;
 }
+
+@media screen and (max-width: 1100px) {
+    .cover {
+        width: 100vw;
+    }
+}
