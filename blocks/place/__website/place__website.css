@@ -8,5 +8,11 @@
     width: 95%;
     height: min-content;
     align-self: end;
-    border: 1px solid red;
+}
+
+@media screen and (max-width: 700px) {
+    .place__website {
+        width: calc(100vw - 32px);
+        margin: 0 auto 32px;
+    }
 }

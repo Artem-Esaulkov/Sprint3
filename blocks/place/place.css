@@ -1,5 +1,5 @@
 .place {
-    width: 984px;
+    width: calc(100vw - 296px);
     margin: 0 auto 80px;
     display: grid;
     grid-template-columns: min-content 1fr;
@@ -14,13 +14,23 @@
 
 @media screen and (max-width: 1100px) {
     .place {
-        width: 928px;
-        gap: 28px 32px;
+        width: calc(100vw - 96px);
+        gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 970px) {
     .place {
-        width: 720px;
+        width: calc(100vw - 48px);
+        margin: 0 auto 73px;
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .place {
+        width: 100vw;
+        margin: 0 0 50px;
+        display: block;
     }
 }

@@ -1,5 +1,19 @@
 .photo-grid {
-    margin: 0 auto;
+    margin: 92px auto;
     padding: 0;
-    width: min-content;
+    width: calc(100vw - 96px);
+}
+
+@media screen and (max-width: 900px) {
+    .photo-grid {
+        width: calc(100vw - 48px);
+        margin: 88px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photo-grid {
+        width: calc(100vw - 32px);
+        margin: 64px auto 61px;
+    }
 }
