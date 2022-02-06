@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1100px) {
   .cover {
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 600px) {
   .cover {
-    width: 100vw;
     margin: 65px 0;
   }
 }

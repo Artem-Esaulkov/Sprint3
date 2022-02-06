@@ -5,3 +5,9 @@
   font-weight: normal;
   margin: 0 0 33px;
 }
+
+@media screen and (max-width: 690px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

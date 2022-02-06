@@ -7,20 +7,20 @@
 
 @media screen and (max-width: 1230px) {
   .photo-grid__item {
-    width: max(calc(((100vw - 96px) - 28px) / 3), 270px);
+    width: calc(((100vw - 97px) - 28px) / 3);
   }
 }
 
 @media screen and (max-width: 940px) {
   .photo-grid__item {
-    width: max(calc(((100vw - 48px) - 1rem) / 2), 270px);
+    width: calc(((100vw - 49px) - 1rem) / 2);
     max-width: 450px;
   }
 }
 
 @media screen and (max-width: 610px) {
   .photo-grid__item {
-    width: max(calc(100vw - 32px), 270px);
+    width: calc(100vw - 33px);
     max-width: 580px;
   }
 }
