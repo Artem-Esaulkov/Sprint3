@@ -1,36 +1,36 @@
 .place {
-    width: calc(100vw - 296px);
-    margin: 0 auto 80px;
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-template-rows: repeat(2, min-content);
-    padding: 0;
-    gap: 48px 40px;
+  width: calc(100vw - 296px);
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: repeat(2, min-content);
+  padding: 0;
+  gap: 48px 40px;
 }
 
 .place:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1100px) {
-    .place {
-        width: calc(100vw - 96px);
-        gap: 48px 32px;
-    }
+  .place {
+    width: calc(100vw - 96px);
+    gap: 48px 32px;
+  }
 }
 
 @media screen and (max-width: 970px) {
-    .place {
-        width: calc(100vw - 48px);
-        margin: 0 auto 73px;
-        gap: 48px 28px;
-    }
+  .place {
+    width: calc(100vw - 48px);
+    margin: 0 auto 73px;
+    gap: 48px 28px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .place {
-        width: 100vw;
-        margin: 0 0 50px;
-        display: block;
-    }
+  .place {
+    width: 100vw;
+    margin: 0 0 50px;
+    display: block;
+  }
 }
